@@ -67,14 +67,14 @@ li {
 .story h2:before, .story h2:after{
   	position: absolute;
     top: 30px;
-    width: 40%;
+    width: 45%;
     height: 2px;
     content: '\a0';
     background-color: rgba(229, 190, 190, 0.75);
 }
 
 .story h2:before {
-  	margin-left: -40%;
+  	margin-left: -45%;
 
 }
 
@@ -98,11 +98,45 @@ li {
   text-align: center;
 }
 
+.contribution h2:before, .contribution h2:after{
+  	position: absolute;
+    top: 30px;
+    width: 41%;
+    height: 2px;
+    content: '\a0';
+    background-color: rgba(229, 190, 190, 0.75);
+}
+
+.contribution h2:before {
+  	margin-left: -41%;
+}
+
+.albums {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+.albums h2:before, .albums h2:after{
+  	position: absolute;
+    top: 30px;
+    width: 44%;
+    height: 2px;
+    content: '\a0';
+    background-color: rgba(229, 190, 190, 0.75);
+}
+
+
+.albums h2:before {
+  	margin-left: -44%;
+}
+
 .albums-holder {
+  position: relative;
+  top: 40px;
   display: grid;
   grid-template: 226px / repeat(3, 226px);
   grid-column-gap: 300px;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 
 li h3 {
